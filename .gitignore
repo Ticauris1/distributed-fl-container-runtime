@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environments and local configuration
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+myenv/
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
+
+# Datasets and generated manifests
+data/*
+!data/__init__.py
+!data/*.py
+segmentation_pilot/workspace*/
+segmentation_pilot/cotton_workspace*/
+segmentation_pilot/ccss_fixed_geometric/
+segmentation_pilot/*manifest.csv
+
+# Model artifacts and experiment output
+results/
+outputs/
+saved_models/
+runtime/
+sk_cache/
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.hyper
+*.twbx
+
+# Logs and generated container state
+*.log
+containerization/docker-compose.generated.yml
+
+# Local backup/configuration files
+*.pre_*
+config.local.py
+

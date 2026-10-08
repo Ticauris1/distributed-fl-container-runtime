@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.env
+.venv/
+myenv/
+.ipynb_checkpoints/
+.git/
+.gitignore
+results/
+runtime/
+sk_cache/
+*.pth
+*.pt
+*.ckpt
